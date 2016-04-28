@@ -5,9 +5,9 @@
         <members>ContactPhonesProviderTest</members>
         <name>ApexClass</name>
     </types>
-    <types>
+    <!--<types>
         <members>*</members>
         <name>ApexTrigger</name>
-    </types>
+    </types>-->
     <version>36.0</version>
 </Package>
