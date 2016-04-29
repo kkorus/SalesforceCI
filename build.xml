@@ -30,7 +30,7 @@
     </target>
     
     <!-- check only if deploy without saving -->
-    <target name="deployTest">
+    <target name="deployUnpackagedOnlyTest">
       <sf:deploy runAllTests="true" checkOnly="true" testLevel="RunLocalTests" username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="retrieveUnpackaged" rollbackOnError="true"/>
     </target>
 
