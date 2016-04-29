@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<Package 
+    xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>SandboxUserConfiguration</members>
+        <members>SandboxSettings</members>
+        <members>SandboxUserConfigurationTest</members>
+        <members>ContactPhonesProvider</members>
+        <members>SandboxSettingsTest</members>
+        <members>UpdateTaskContactPhonesFieldTest</members>
+        <members>TaskService</members>
+        <members>LeadService</members>
+        <members>UpdateContactTasksContactPhonesFieldTest</members>
+        <members>UpdateLeadTasksContactPhonesFieldTest</members>
+        <members>ContactService</members>
         <members>ContactPhonesProvider</members>
         <members>ContactPhonesProviderTest</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>UpdateContactPhonesField</members>
+        <members>UpdateContactTasksContactPhonesField</members>
+        <members>UpdateLeadTasksContactPhonesField</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Activity</members>
+        <members>Task</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Task-Task Layout</members>
+        <name>Layout</name>
     </types>
     <version>36.0</version>
 </Package>
