@@ -4,17 +4,19 @@
     <types>
         <members>SandboxUserConfiguration</members>
         <members>SandboxSettings</members>
+        <members>SandboxSettingsTest</members>
         <members>SandboxUserConfigurationTest</members>
         <members>ContactPhonesProvider</members>
-        <members>SandboxSettingsTest</members>
-        <members>UpdateTaskContactPhonesFieldTest</members>
-        <members>TaskService</members>
-        <members>LeadService</members>
-        <members>UpdateContactTasksContactPhonesFieldTest</members>
-        <members>UpdateLeadTasksContactPhonesFieldTest</members>
-        <members>ContactService</members>
         <members>ContactPhonesProvider</members>
         <members>ContactPhonesProviderTest</members>
+        <!-- services -->
+        <members>TaskService</members>
+        <members>LeadService</members>
+        <members>ContactService</members>
+        <!-- triggers tests -->
+        <members>UpdateContactTasksContactPhonesFieldTest</members>
+        <members>UpdateLeadTasksContactPhonesFieldTest</members>
+        <members>UpdateTaskContactPhonesFieldTest</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -24,13 +26,22 @@
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>Activity</members>
-        <members>Task</members>
-        <name>CustomObject</name>
+        <members>Activity.Contact_Phones__c</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>Task-Task Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Standard</members>
+        <members>SolutionManager</members>
+        <members>ReadOnly</members>
+        <members>MarketingProfile</members>
+        <members>Guest License User</members>
+        <members>ContractManager</members>
+        <name>Profile</name>
     </types>
     <version>36.0</version>
 </Package>
