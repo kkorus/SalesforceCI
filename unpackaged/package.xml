@@ -3,10 +3,9 @@
     xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>SandboxUserConfiguration</members>
+        <members>SandboxUserConfigurationTest</members>
         <members>SandboxSettings</members>
         <members>SandboxSettingsTest</members>
-        <members>SandboxUserConfigurationTest</members>
-        <members>ContactPhonesProvider</members>
         <members>ContactPhonesProvider</members>
         <members>ContactPhonesProviderTest</members>
         <!-- services -->
