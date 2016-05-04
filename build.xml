@@ -25,7 +25,7 @@
       <sf:retrieve username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="retrieveUnpackaged" unpackaged="unpackaged/package.xml" unzip="true"/>
     </target>
     
-    <target name="deploydestructiveChanges">
+    <target name="deployDestructiveChanges">
       <sf:deploy ignoreWarnings="true" runAllTests="false" username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="retrieveUnpackaged" rollbackOnError="true"/>
     </target>
     
