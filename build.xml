@@ -26,7 +26,7 @@
     </target>
     
     <target name="deployUnpackaged">
-      <sf:deploy allowMissingFiles="true" runAllTests="true" testLevel="RunLocalTests" username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="retrieveUnpackaged" rollbackOnError="true"/>
+      <sf:deploy ignoreWarnings="true" runAllTests="true" testLevel="RunLocalTests" username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="retrieveUnpackaged" rollbackOnError="true"/>
     </target>
     
     <!-- check only if deploy without saving -->
